@@ -1,0 +1,180 @@
+Solution1:-> 
+./././././././././
+class NumberHolder {
+    public int anInt;
+    public float aFloat;
+    
+     NumberHolder(int anInt,float aFloat){
+        this.anInt=anInt;
+        this.aFloat=aFloat;
+    }
+    void display()
+    {
+        System.out.println(anInt+" "+aFloat);
+    } 
+ }
+class Main {
+    public static void main(String[] args) {
+        
+        NumberHolder n1=new NumberHolder(23,12);
+        n1.display();
+    }
+}
+./././././././././
+
+Solution2:->
+./././././././././
+class Student {
+     int rollno;
+     int phno;
+     String add;
+     String name;
+    
+     Student(int anInt,int aFloat,String add,String name){
+        this.rollno=anInt;
+        this.phno=aFloat;
+        this.add=add;
+         this.name=name;
+    }
+    void display()
+    {
+        System.out.println(name + " "+rollno+" "+phno+" "+add);
+    } 
+ }
+class Main {
+    public static void main(String[] args) {
+        
+        Student s1=new Student(23,1234535,"wolfstrret","sam");
+        s1.display();
+        Student s2=new Student(24,5436711,"wolfstrre65t","john");
+        s2.display();
+                               
+    }
+}
+./././././././
+
+Solution3:->
+././././././././
+class Employee {
+     String name;
+     String year;
+     String add;
+    
+     Employee(String name,String year,String add){
+        this.name=name;
+         this.year=year;
+         this.add=add;
+    }
+    void display()
+    {
+        System.out.println(name + "   "+year+"   "+add);
+    } 
+ }
+class Main {
+    public static void main(String[] args) {
+        
+        Employee e1=new Employee("Name","Year","Address");
+        Employee e2=new Employee("Robert","1994","64C-Wallstreet");
+        Employee e3=new Employee("Sam","2000","65B-Wallstreet");
+        Employee e4=new Employee("John","1999","67A-Wallstreet");
+                                 
+        e1.display();
+        e2.display();
+        e3.display();
+        e4.display();
+    }    
+
+./././././.
+
+Solution4:->
+././././././
+ class Student {
+     int rollno;
+     
+     String name;
+    
+     Student(int anInt,String name){
+        this.rollno=anInt;
+        
+         this.name=name;
+    }
+    void display()
+    {
+        System.out.println(name + " "+rollno);
+    } 
+ }
+class Main {
+    public static void main(String[] args) {
+        
+        Student s1=new Student(02,"John");
+        s1.display();
+        
+                               
+    }
+}
+./././././
+Solution5:->
+././././././
+class Book {
+     String title;
+     String author;
+     double price;
+    
+     public Book(String title,String author,double price){
+        this.title=title;
+         this.author=author;
+         this.price=price;
+    }
+    void display()
+    {
+        System.out.println(title + "   "+author+"   "+price);
+    } 
+ }
+class Main {
+    public static void main(String[] args) {
+        
+        Book e1=new Book("wolf of wallstreet","lenardo",100.4);
+       
+                                 
+        e1.display();
+       
+    }    
+        
+        
+    
+}
+././././././././
+
+
+Solution6:->
+./././././
+ class Author {
+     String fname;
+     String lname;
+     
+    
+     public Author(String fname,String lname){
+        this.fname=fname;
+         this.lname=lname;
+         
+    }
+    void display()
+    {
+        System.out.println(fname + "   "+lname);
+    } 
+ }
+class Main {
+    public static void main(String[] args) {
+        
+        Author e1=new Author("Sanjay","Singh");
+       
+                                 
+        e1.display();
+       
+    }    
+        
+        
+    
+}
+
+././././

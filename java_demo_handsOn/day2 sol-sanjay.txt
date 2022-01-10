@@ -1,0 +1,168 @@
+Solution1:->
+./././././././
+class Main {
+    public static void main(String[] args) {
+        int i=1;
+        while(i<=5){
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+            i++;
+        
+        }
+        while(i>0){
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+            i--;
+        
+        }
+    }
+}
+./././././././
+
+Solution3:->
+./././././././
+
+class Main {
+    public static void main(String[] args) {
+       int num=5;
+        for(int i=0;i<5;i++){
+            System.out.println(num + "X" +i+ "=" + num*i);
+        }
+    }
+}
+././././././
+
+Solution6:->
+././././././
+class Main {
+    public static void main(String[] args) {
+        int[] arr={3,4,1,5,6,7};
+        int sum=0;
+        int avg=0;
+        for(int i=0;i<arr.length;i++){
+            sum=sum+arr[i];
+        }
+        avg=sum/arr.length;
+        System.out.print(avg);
+    }
+}
+./././././
+
+Solution5:->
+./././././././
+ class Bank{
+    int interest(int x,int y){
+        return (x+y)*3;
+    }
+    
+    float interest(float x,float y){
+        return (x+y)*3;
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        
+        Bank b1=new Bank();
+       int x= b1.interest(4,6);
+       float y= b1.interest(2.1f,3.5f);
+        
+        System.out.println(x);
+        System.out.print(y);
+        
+            
+        
+    
+
+    }
+}
+
+
+./././././
+
+Solution7:->
+./././././
+class Main {
+    public static void main(String[] args) {
+        int[] arr={3,4,1,5,6,7};
+        
+        for(int i=0;i<arr.length-1;i++){
+            int min=i;
+            for(int j=i+1;j<arr.length;j++){
+                if(arr[j]>arr[min]){
+                    min=j;
+                }
+            }
+            int temp=arr[i];
+            arr[i]=arr[min];
+            arr[min]=temp;
+        }
+        
+        System.out.print(arr[0]);
+    
+
+    }
+}
+./.././././
+Solution9:->
+./././././
+class Main {
+    public static void main(String[] args) {
+        int[] arr={3,4,1,5,6,7};
+        
+        for(int i=0;i<arr.length-1;i++){
+            int min=i;
+            for(int j=i+1;j<arr.length;j++){
+                if(arr[j]>arr[min]){
+                    min=j;
+                }
+            }
+            int temp=arr[i];
+            arr[i]=arr[min];
+            arr[min]=temp;
+        }
+        
+        System.out.print(arr[1]);
+    
+
+    }
+}
+./././././
+Solution8a:->
+./././././
+class Main {
+    public static void main(String[] args) {
+        String[] arr={"sunady","monday","tuesday","wednesday","thursday","friday","saturday"};
+        
+        for(int i=0;i<arr.length;i++){
+             System.out.print(arr[i]+" ");
+           
+        }
+        
+        
+    
+
+    }
+}
+././././
+Solution8b:->
+././././
+class Main {
+    public static void main(String[] args) {
+        int[] arr={3,4,1,5,6,7};
+        
+        for(int i=0;i<arr.length;i++){
+             System.out.print(arr[i]+" ");
+           
+        }
+        
+        
+    
+
+    }
+}
+././././
